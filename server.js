@@ -8,7 +8,6 @@ import crypto from "crypto";
 
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { start } from "repl";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const SYSTEM_PROMPT_FILE = __dirname + "/system_prompt.txt";
@@ -30,12 +29,6 @@ function ChatData(text, isUser) {
     this.text = text;
     this.isUser = isUser;
 }
-
-const sample_chats = [
-    new ChatData("Hello, how can I assist you today?", false),
-    new ChatData("I am looking for a new laptop.", true),
-    new ChatData("Sure! What are your requirements?", false)
-];
 
 const MAX_CONTEXT_LENGTH = 1000000;
 
@@ -61,14 +54,31 @@ function buildFinalPrompt(systemPrompt, chats) {
     return finalPrompt + "\n\n" + chatPrommpt + "Model: ";
 }
 
+function setApp(app) {
+    const sessionSecret = crypto.randomBytes(32).toString("hex");
+    app.set('view engine', 'ejs');
+    app.use(express.static(path.join(__dirname, 'public')));
+    app.set('views', path.join(__dirname, 'views'));
+    app.use(bodyParser.urlencoded({extended: true}));
+    app.use(morgan("tiny"));
+    app.use(session({
+        secret: sessionSecret,
+        resave: false,
+        saveUninitialized: true,
+        cookie: { secure: false } 
+    }));
+}
+
 function startServer(data) {
     const CONFIG = JSON.parse(data);
     console.log("using model: ", CONFIG["model"]);
 
+    console.log("loading GEN AI module...")
     const GEN_AI = new GoogleGenAI({
         apiKey: CONFIG["api-key"],
     });
 
+    console.log("loading system prompt from file: ", SYSTEM_PROMPT_FILE);
     var SYSTEM_PROMPT = "";
     try {
         SYSTEM_PROMPT = fs.readFileSync(SYSTEM_PROMPT_FILE, 'utf8');
@@ -87,28 +97,10 @@ function startServer(data) {
     const APP = express();
     const PORT = 3000;
 
-    const sessionSecret = crypto.randomBytes(32).toString("hex");
-
-    APP.set('view engine', 'ejs');
-
-    console.log(__dirname);
-
-    APP.use(express.static(path.join(__dirname, 'public')));
-
-    APP.set('views', path.join(__dirname, 'views'));
-
-    APP.use(bodyParser.urlencoded({extended: true}));
-
-    APP.use(morgan("tiny"));
-
-    APP.use(session({
-        secret: sessionSecret,
-        resave: false,
-        saveUninitialized: true,
-        cookie: { secure: false } 
-    }));
+    setApp(APP);
 
     APP.get("/", function(req, res) {
+        req.session.chats = [];
         res.render("index.ejs", {
             chats: undefined
         });
