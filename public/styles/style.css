@@ -1,0 +1,142 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #021526;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+#021526
+#03346E
+#6EACDA
+#E2E2B6
+*/
+
+.title-bar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to bottom, #021526, rgba(0, 0, 0, 0)); ;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.title-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-style: normal;
+    padding: 16px;
+    color: #E2E2B6;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-style: normal;
+    padding: 0px 16px 16px 16px;
+    color: #6EACDA;
+    font-size: 14px;
+}
+
+.main-chats {
+    padding-top: 68px;
+    position: absolute;
+    width: 80%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.message-box {
+    position: fixed;
+    bottom: 16px;
+    width: 80%;
+    height: 80px;
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #03346E;
+    border-radius: 16px;
+    box-shadow: 0px 0px 8px black;
+}
+
+#message-form {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+}
+
+#message-feild {
+    flex-grow: 1;
+    height: 30px;
+    padding: 8px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px black;
+    background-color: #6EACDA;
+    color: #021526;
+}
+
+#message-submit-btn {
+    width: 50px;
+    height: 30px;
+    border-radius: 16px;
+    background: linear-gradient(to right, white, #FBC02D);
+    mask-clip: text;
+    box-shadow: 0px 0px 8px black;
+}
+
+.chat-container {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.chat {
+    display: inline-block;
+    background-color: #6EACDA;
+    padding: 16px;
+    border-radius: 16px;
+    max-width: 70%; /* taaki bubble screen se bahar na nikle */
+    word-wrap: break-word;
+}
+
+.model-chat {
+    justify-content: flex-start; /* left aligned */
+}
+
+.user-chat {
+    justify-content: flex-end; /* right aligned */
+}
+
+.user-chat .chat {
+    background-color: #4CAF50;
+}
+
+.model-chat .chat {
+    background-color: #6EACDA;
+}

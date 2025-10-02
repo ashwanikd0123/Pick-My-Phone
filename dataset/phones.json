@@ -1,0 +1,41 @@
+[
+  {"brand": "Samsung", "model": "Galaxy S24 Ultra", "price_usd": 1299, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "5000mAh", "charging": "45W", "camera": "200MP+12MP+10MP+10MP"},
+  {"brand": "Samsung", "model": "Galaxy S24+", "price_usd": 999, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "4900mAh", "charging": "45W", "camera": "50MP+12MP+10MP"},
+  {"brand": "Samsung", "model": "Galaxy A54", "price_usd": 449, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.4 AMOLED 120Hz", "battery": "5000mAh", "charging": "25W", "camera": "50MP+12MP+5MP"},
+  {"brand": "Samsung", "model": "Galaxy M14", "price_usd": 199, "os": "Android 13", "ram": "4GB", "storage": "64GB", "display": "6.6 LCD 90Hz", "battery": "6000mAh", "charging": "25W", "camera": "50MP+2MP+2MP"},
+  
+  {"brand": "Apple", "model": "iPhone 15 Pro Max", "price_usd": 1199, "os": "iOS 17", "ram": "8GB", "storage": "256GB", "display": "6.7 OLED 120Hz", "battery": "4422mAh", "charging": "27W", "camera": "48MP+12MP+12MP"},
+  {"brand": "Apple", "model": "iPhone 15", "price_usd": 799, "os": "iOS 17", "ram": "6GB", "storage": "128GB", "display": "6.1 OLED 60Hz", "battery": "3349mAh", "charging": "20W", "camera": "48MP+12MP"},
+  {"brand": "Apple", "model": "iPhone 14", "price_usd": 699, "os": "iOS 17", "ram": "6GB", "storage": "128GB", "display": "6.1 OLED 60Hz", "battery": "3279mAh", "charging": "20W", "camera": "12MP+12MP"},
+  {"brand": "Apple", "model": "iPhone SE (2022)", "price_usd": 429, "os": "iOS 16", "ram": "4GB", "storage": "64GB", "display": "4.7 LCD 60Hz", "battery": "2018mAh", "charging": "20W", "camera": "12MP"},
+  
+  {"brand": "Google", "model": "Pixel 8 Pro", "price_usd": 999, "os": "Android 14", "ram": "12GB", "storage": "128GB", "display": "6.7 OLED 120Hz", "battery": "5050mAh", "charging": "30W", "camera": "50MP+48MP+48MP"},
+  {"brand": "Google", "model": "Pixel 8a", "price_usd": 499, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.1 OLED 120Hz", "battery": "4492mAh", "charging": "30W", "camera": "64MP+13MP"},
+  {"brand": "Google", "model": "Pixel 7", "price_usd": 599, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.3 OLED 90Hz", "battery": "4355mAh", "charging": "30W", "camera": "50MP+12MP"},
+  
+  {"brand": "OnePlus", "model": "12", "price_usd": 899, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "5400mAh", "charging": "100W", "camera": "50MP+64MP+48MP"},
+  {"brand": "OnePlus", "model": "12R", "price_usd": 599, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "5500mAh", "charging": "100W", "camera": "50MP+8MP+2MP"},
+  {"brand": "OnePlus", "model": "Nord CE 3", "price_usd": 299, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "80W", "camera": "50MP+8MP+2MP"},
+  
+  {"brand": "Xiaomi", "model": "13 Ultra", "price_usd": 899, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "90W", "camera": "50MP+50MP+50MP+50MP"},
+  {"brand": "Xiaomi", "model": "Redmi Note 13 Pro", "price_usd": 349, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.6 AMOLED 120Hz", "battery": "5000mAh", "charging": "67W", "camera": "200MP+8MP+2MP"},
+  {"brand": "Xiaomi", "model": "Redmi Note 13", "price_usd": 249, "os": "Android 14", "ram": "6GB", "storage": "128GB", "display": "6.6 AMOLED 120Hz", "battery": "5000mAh", "charging": "33W", "camera": "100MP+2MP"},
+  
+  {"brand": "Realme", "model": "GT 5", "price_usd": 599, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 144Hz", "battery": "5240mAh", "charging": "150W", "camera": "50MP+8MP+2MP"},
+  {"brand": "Realme", "model": "11 Pro+", "price_usd": 399, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "100W", "camera": "200MP+8MP+2MP"},
+  {"brand": "Realme", "model": "Narzo 60x", "price_usd": 229, "os": "Android 13", "ram": "6GB", "storage": "128GB", "display": "6.6 LCD 120Hz", "battery": "5000mAh", "charging": "33W", "camera": "64MP+2MP"},
+  
+  {"brand": "Vivo", "model": "X100 Pro", "price_usd": 999, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "5400mAh", "charging": "120W", "camera": "50MP+50MP+64MP"},
+  {"brand": "Vivo", "model": "V29", "price_usd": 399, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.8 AMOLED 120Hz", "battery": "4600mAh", "charging": "80W", "camera": "50MP+8MP+2MP"},
+  
+  {"brand": "iQOO", "model": "Neo 9 Pro", "price_usd": 499, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "5160mAh", "charging": "120W", "camera": "50MP+8MP"},
+  {"brand": "iQOO", "model": "Z7 Pro", "price_usd": 299, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "4600mAh", "charging": "66W", "camera": "64MP+2MP"},
+  
+  {"brand": "Oppo", "model": "Find X6 Pro", "price_usd": 1099, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "5000mAh", "charging": "100W", "camera": "50MP+50MP+50MP"},
+  {"brand": "Oppo", "model": "Reno 11", "price_usd": 399, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "4600mAh", "charging": "67W", "camera": "50MP+8MP+2MP"},
+  
+  {"brand": "Motorola", "model": "Edge 40 Pro", "price_usd": 799, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 OLED 165Hz", "battery": "4600mAh", "charging": "125W", "camera": "50MP+50MP+12MP"},
+  {"brand": "Motorola", "model": "Moto G84", "price_usd": 249, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.5 pOLED 120Hz", "battery": "5000mAh", "charging": "30W", "camera": "50MP+8MP"},
+  
+  {"brand": "Nothing", "model": "Phone 2", "price_usd": 699, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 OLED 120Hz", "battery": "4700mAh", "charging": "45W", "camera": "50MP+50MP"}
+]
