@@ -10,6 +10,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+const PORT = 8080;
+
 const SYSTEM_PROMPT_FILE = __dirname + "/system_prompt.txt";
 
 async function getResponse(modelName, model, prompt) {
@@ -95,7 +97,6 @@ function startServer(data) {
     }
 
     const APP = express();
-    const PORT = 3000;
 
     setApp(APP);
 
@@ -115,7 +116,6 @@ function startServer(data) {
         const finalPrompt = buildFinalPrompt(SYSTEM_PROMPT, req.session.chats);
 
         getResponse(CONFIG["model"], GEN_AI, finalPrompt).then(function(llmResponse) {
-            console.log("Response: ", llmResponse);
             appendNewModelResponse(req.session.chats, llmResponse);
             res.render("index.ejs", {
                 chats: req.session.chats
