@@ -81,7 +81,7 @@ function startServer(data) {
     });
 
     console.log("loading system prompt from file: ", SYSTEM_PROMPT_FILE);
-    
+
     var SYSTEM_PROMPT = "";
     try {
         SYSTEM_PROMPT = fs.readFileSync(SYSTEM_PROMPT_FILE, 'utf8');
@@ -134,7 +134,7 @@ function startServer(data) {
 let handler
 
 try {
-    var data = fs.readFileSync("./config.json", "utf-8");
+    var data = fs.readFileSync(__dirname + "/config.json", "utf-8");
     handler = startServer(data);
 } catch (err) {
     console.error("Error reading config file:", err);
