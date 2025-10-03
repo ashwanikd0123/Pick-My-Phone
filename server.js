@@ -81,6 +81,7 @@ function startServer(data) {
     });
 
     console.log("loading system prompt from file: ", SYSTEM_PROMPT_FILE);
+    
     var SYSTEM_PROMPT = "";
     try {
         SYSTEM_PROMPT = fs.readFileSync(SYSTEM_PROMPT_FILE, 'utf8');
@@ -123,17 +124,22 @@ function startServer(data) {
         });
     });
 
-    APP.listen(PORT, () => {
-        console.log(`Server is running on http://localhost:${PORT}`);   
-    });
+    // APP.listen(PORT, () => {
+    //     console.log(`Server is running on http://localhost:${PORT}`);   
+    // });
+
+    return APP
 }
 
-fs.readFile("./config.json", "utf-8" , (err, data) => {
-    if (err) {
-        console.error("Error reading config file:", err);
-        console.log("Exiting server...");
-        exit(1);
-    } else {
-        startServer(data);
-    }
-});
+let handler
+
+try {
+    var data = fs.readFileSync("./config.json", "utf-8");
+    handler = startServer(data);
+} catch (err) {
+    console.error("Error reading config file:", err);
+    console.log("Exiting server...");
+    process.exit(1);
+}
+
+export default handler;
