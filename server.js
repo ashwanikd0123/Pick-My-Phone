@@ -77,7 +77,7 @@ function startServer(data) {
 
     console.log("loading GEN AI module...")
     const GEN_AI = new GoogleGenAI({
-        apiKey: CONFIG["api-key"],
+        apiKey: process.env.API_KEY,
     });
 
     console.log("loading system prompt from file: ", SYSTEM_PROMPT_FILE);
