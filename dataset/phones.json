@@ -1,41 +1,213 @@
 [
   {"brand": "Samsung", "model": "Galaxy S24 Ultra", "price_usd": 1299, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "5000mAh", "charging": "45W", "camera": "200MP+12MP+10MP+10MP"},
   {"brand": "Samsung", "model": "Galaxy S24+", "price_usd": 999, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "4900mAh", "charging": "45W", "camera": "50MP+12MP+10MP"},
-  {"brand": "Samsung", "model": "Galaxy A54", "price_usd": 449, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.4 AMOLED 120Hz", "battery": "5000mAh", "charging": "25W", "camera": "50MP+12MP+5MP"},
-  {"brand": "Samsung", "model": "Galaxy M14", "price_usd": 199, "os": "Android 13", "ram": "4GB", "storage": "64GB", "display": "6.6 LCD 90Hz", "battery": "6000mAh", "charging": "25W", "camera": "50MP+2MP+2MP"},
-  
+  {"brand": "Samsung", "model": "Galaxy S24", "price_usd": 799, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.2 AMOLED 120Hz", "battery": "4000mAh", "charging": "25W", "camera": "50MP+12MP+10MP"},
+  {"brand": "Samsung", "model": "Galaxy A55", "price_usd": 479, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.6 AMOLED 120Hz", "battery": "5000mAh", "charging": "25W", "camera": "50MP+12MP+5MP"},
+  {"brand": "Samsung", "model": "Galaxy A35", "price_usd": 359, "os": "Android 14", "ram": "6GB", "storage": "128GB", "display": "6.6 AMOLED 120Hz", "battery": "5000mAh", "charging": "25W", "camera": "50MP+8MP+5MP"},
+  {"brand": "Samsung", "model": "Galaxy A15", "price_usd": 199, "os": "Android 14", "ram": "4GB", "storage": "128GB", "display": "6.5 AMOLED 90Hz", "battery": "5000mAh", "charging": "25W", "camera": "50MP+5MP+2MP"},
+  {"brand": "Samsung", "model": "Galaxy M34", "price_usd": 259, "os": "Android 13", "ram": "6GB", "storage": "128GB", "display": "6.5 AMOLED 120Hz", "battery": "6000mAh", "charging": "25W", "camera": "50MP+8MP+2MP"},
+  {"brand": "Samsung", "model": "Galaxy Z Flip5", "price_usd": 999, "os": "Android 14", "ram": "8GB", "storage": "256GB", "display": "6.7 Foldable AMOLED", "battery": "3700mAh", "charging": "25W", "camera": "12MP+12MP"},
+  {"brand": "Samsung", "model": "Galaxy Z Fold5", "price_usd": 1799, "os": "Android 14", "ram": "12GB", "storage": "512GB", "display": "7.6 Foldable AMOLED", "battery": "4400mAh", "charging": "25W", "camera": "50MP+12MP+10MP"},
+  {"brand": "Samsung", "model": "Galaxy F15", "price_usd": 149, "os": "Android 14", "ram": "4GB", "storage": "64GB", "display": "6.6 LCD 90Hz", "battery": "6000mAh", "charging": "15W", "camera": "50MP+5MP+2MP"},
+
   {"brand": "Apple", "model": "iPhone 15 Pro Max", "price_usd": 1199, "os": "iOS 17", "ram": "8GB", "storage": "256GB", "display": "6.7 OLED 120Hz", "battery": "4422mAh", "charging": "27W", "camera": "48MP+12MP+12MP"},
+  {"brand": "Apple", "model": "iPhone 15 Pro", "price_usd": 999, "os": "iOS 17", "ram": "8GB", "storage": "128GB", "display": "6.1 OLED 120Hz", "battery": "3274mAh", "charging": "27W", "camera": "48MP+12MP+12MP"},
   {"brand": "Apple", "model": "iPhone 15", "price_usd": 799, "os": "iOS 17", "ram": "6GB", "storage": "128GB", "display": "6.1 OLED 60Hz", "battery": "3349mAh", "charging": "20W", "camera": "48MP+12MP"},
+  {"brand": "Apple", "model": "iPhone 15 Plus", "price_usd": 899, "os": "iOS 17", "ram": "6GB", "storage": "128GB", "display": "6.7 OLED 60Hz", "battery": "4383mAh", "charging": "20W", "camera": "48MP+12MP"},
   {"brand": "Apple", "model": "iPhone 14", "price_usd": 699, "os": "iOS 17", "ram": "6GB", "storage": "128GB", "display": "6.1 OLED 60Hz", "battery": "3279mAh", "charging": "20W", "camera": "12MP+12MP"},
-  {"brand": "Apple", "model": "iPhone SE (2022)", "price_usd": 429, "os": "iOS 16", "ram": "4GB", "storage": "64GB", "display": "4.7 LCD 60Hz", "battery": "2018mAh", "charging": "20W", "camera": "12MP"},
-  
+  {"brand": "Apple", "model": "iPhone SE (2022)", "price_usd": 429, "os": "iOS 17", "ram": "4GB", "storage": "64GB", "display": "4.7 LCD 60Hz", "battery": "2018mAh", "charging": "20W", "camera": "12MP"},
+  {"brand": "Apple", "model": "iPhone 13 mini", "price_usd": 599, "os": "iOS 17", "ram": "4GB", "storage": "128GB", "display": "5.4 OLED 60Hz", "battery": "2438mAh", "charging": "20W", "camera": "12MP+12MP"},
+  {"brand": "Apple", "model": "iPhone 12", "price_usd": 549, "os": "iOS 17", "ram": "4GB", "storage": "64GB", "display": "6.1 OLED 60Hz", "battery": "2815mAh", "charging": "20W", "camera": "12MP+12MP"},
+
   {"brand": "Google", "model": "Pixel 8 Pro", "price_usd": 999, "os": "Android 14", "ram": "12GB", "storage": "128GB", "display": "6.7 OLED 120Hz", "battery": "5050mAh", "charging": "30W", "camera": "50MP+48MP+48MP"},
+  {"brand": "Google", "model": "Pixel 8", "price_usd": 699, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.2 OLED 120Hz", "battery": "4575mAh", "charging": "27W", "camera": "50MP+12MP"},
   {"brand": "Google", "model": "Pixel 8a", "price_usd": 499, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.1 OLED 120Hz", "battery": "4492mAh", "charging": "30W", "camera": "64MP+13MP"},
+  {"brand": "Google", "model": "Pixel 7a", "price_usd": 449, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.1 OLED 90Hz", "battery": "4385mAh", "charging": "18W", "camera": "64MP+13MP"},
   {"brand": "Google", "model": "Pixel 7", "price_usd": 599, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.3 OLED 90Hz", "battery": "4355mAh", "charging": "30W", "camera": "50MP+12MP"},
-  
-  {"brand": "OnePlus", "model": "12", "price_usd": 899, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "5400mAh", "charging": "100W", "camera": "50MP+64MP+48MP"},
-  {"brand": "OnePlus", "model": "12R", "price_usd": 599, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "5500mAh", "charging": "100W", "camera": "50MP+8MP+2MP"},
-  {"brand": "OnePlus", "model": "Nord CE 3", "price_usd": 299, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "80W", "camera": "50MP+8MP+2MP"},
-  
-  {"brand": "Xiaomi", "model": "13 Ultra", "price_usd": 899, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "90W", "camera": "50MP+50MP+50MP+50MP"},
+
+  {"brand": "OnePlus", "model": "12", "price_usd": 899, "os": "Android 14", "ram": "16GB", "storage": "512GB", "display": "6.8 AMOLED 120Hz", "battery": "5400mAh", "charging": "100W", "camera": "50MP+64MP+48MP"},
+  {"brand": "OnePlus", "model": "12R", "price_usd": 599, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5500mAh", "charging": "100W", "camera": "50MP+8MP+2MP"},
+  {"brand": "OnePlus", "model": "Nord 3", "price_usd": 449, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "80W", "camera": "50MP+8MP+2MP"},
+  {"brand": "OnePlus", "model": "Nord CE 3 Lite", "price_usd": 279, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.7 LCD 120Hz", "battery": "5000mAh", "charging": "67W", "camera": "108MP+2MP+2MP"},
+  {"brand": "OnePlus", "model": "Nord CE 4", "price_usd": 329, "os": "Android 14", "ram": "8GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5500mAh", "charging": "100W", "camera": "50MP+8MP"},
+
+  {"brand": "Xiaomi", "model": "14 Ultra", "price_usd": 1399, "os": "Android 14", "ram": "16GB", "storage": "512GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "90W", "camera": "50MP Quad-Camera"},
+  {"brand": "Xiaomi", "model": "14", "price_usd": 999, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.4 AMOLED 120Hz", "battery": "4610mAh", "charging": "90W", "camera": "50MP+50MP+50MP"},
+  {"brand": "Xiaomi", "model": "Redmi Note 13 Pro+", "price_usd": 429, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.6 AMOLED 120Hz", "battery": "5000mAh", "charging": "120W", "camera": "200MP+8MP+2MP"},
   {"brand": "Xiaomi", "model": "Redmi Note 13 Pro", "price_usd": 349, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.6 AMOLED 120Hz", "battery": "5000mAh", "charging": "67W", "camera": "200MP+8MP+2MP"},
-  {"brand": "Xiaomi", "model": "Redmi Note 13", "price_usd": 249, "os": "Android 14", "ram": "6GB", "storage": "128GB", "display": "6.6 AMOLED 120Hz", "battery": "5000mAh", "charging": "33W", "camera": "100MP+2MP"},
-  
-  {"brand": "Realme", "model": "GT 5", "price_usd": 599, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 144Hz", "battery": "5240mAh", "charging": "150W", "camera": "50MP+8MP+2MP"},
-  {"brand": "Realme", "model": "11 Pro+", "price_usd": 399, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "100W", "camera": "200MP+8MP+2MP"},
-  {"brand": "Realme", "model": "Narzo 60x", "price_usd": 229, "os": "Android 13", "ram": "6GB", "storage": "128GB", "display": "6.6 LCD 120Hz", "battery": "5000mAh", "charging": "33W", "camera": "64MP+2MP"},
-  
-  {"brand": "Vivo", "model": "X100 Pro", "price_usd": 999, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "5400mAh", "charging": "120W", "camera": "50MP+50MP+64MP"},
-  {"brand": "Vivo", "model": "V29", "price_usd": 399, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.8 AMOLED 120Hz", "battery": "4600mAh", "charging": "80W", "camera": "50MP+8MP+2MP"},
-  
-  {"brand": "iQOO", "model": "Neo 9 Pro", "price_usd": 499, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "5160mAh", "charging": "120W", "camera": "50MP+8MP"},
-  {"brand": "iQOO", "model": "Z7 Pro", "price_usd": 299, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "4600mAh", "charging": "66W", "camera": "64MP+2MP"},
-  
-  {"brand": "Oppo", "model": "Find X6 Pro", "price_usd": 1099, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "5000mAh", "charging": "100W", "camera": "50MP+50MP+50MP"},
+  {"brand": "Xiaomi", "model": "Poco X6 Pro", "price_usd": 369, "os": "Android 14", "ram": "8GB", "storage": "256GB", "display": "6.6 AMOLED 120Hz", "battery": "5000mAh", "charging": "67W", "camera": "64MP+8MP+2MP"},
+  {"brand": "Xiaomi", "model": "Poco M6 Pro", "price_usd": 249, "os": "Android 14", "ram": "8GB", "storage": "256GB", "display": "6.6 AMOLED 120Hz", "battery": "5000mAh", "charging": "67W", "camera": "64MP+8MP+2MP"},
+  {"brand": "Xiaomi", "model": "Redmi 13C", "price_usd": 129, "os": "Android 13", "ram": "4GB", "storage": "128GB", "display": "6.7 LCD 90Hz", "battery": "5000mAh", "charging": "18W", "camera": "50MP+2MP"},
+
+  {"brand": "Oppo", "model": "Find X7 Ultra", "price_usd": 1199, "os": "Android 14", "ram": "16GB", "storage": "512GB", "display": "6.8 AMOLED 120Hz", "battery": "5000mAh", "charging": "100W", "camera": "50MP Quad-Camera"},
+  {"brand": "Oppo", "model": "Reno 11 Pro", "price_usd": 599, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "4600mAh", "charging": "80W", "camera": "50MP+32MP+8MP"},
   {"brand": "Oppo", "model": "Reno 11", "price_usd": 399, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "4600mAh", "charging": "67W", "camera": "50MP+8MP+2MP"},
-  
-  {"brand": "Motorola", "model": "Edge 40 Pro", "price_usd": 799, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 OLED 165Hz", "battery": "4600mAh", "charging": "125W", "camera": "50MP+50MP+12MP"},
+  {"brand": "Oppo", "model": "A79", "price_usd": 249, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.7 LCD 90Hz", "battery": "5000mAh", "charging": "33W", "camera": "50MP+2MP"},
+
+  {"brand": "Vivo", "model": "X100 Pro", "price_usd": 999, "os": "Android 14", "ram": "16GB", "storage": "512GB", "display": "6.8 AMOLED 120Hz", "battery": "5400mAh", "charging": "120W", "camera": "50MP+50MP+64MP"},
+  {"brand": "Vivo", "model": "X100", "price_usd": 799, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "120W", "camera": "50MP+50MP+12MP"},
+  {"brand": "Vivo", "model": "V30 Pro", "price_usd": 599, "os": "Android 14", "ram": "12GB", "storage": "512GB", "display": "6.8 AMOLED 120Hz", "battery": "5000mAh", "charging": "80W", "camera": "50MP+50MP+12MP"},
+  {"brand": "Vivo", "model": "V30", "price_usd": 399, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.8 AMOLED 120Hz", "battery": "5000mAh", "charging": "80W", "camera": "50MP+8MP"},
+  {"brand": "Vivo", "model": "Y200", "price_usd": 299, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "4800mAh", "charging": "44W", "camera": "64MP+2MP"},
+
+  {"brand": "Realme", "model": "GT 5 Pro", "price_usd": 799, "os": "Android 14", "ram": "16GB", "storage": "512GB", "display": "6.7 AMOLED 144Hz", "battery": "5400mAh", "charging": "100W", "camera": "50MP+50MP+8MP"},
+  {"brand": "Realme", "model": "GT 5", "price_usd": 599, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 144Hz", "battery": "5240mAh", "charging": "150W", "camera": "50MP+8MP+2MP"},
+  {"brand": "Realme", "model": "12 Pro+", "price_usd": 499, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "67W", "camera": "50MP+64MP+8MP"},
+  {"brand": "Realme", "model": "12 Pro", "price_usd": 399, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "67W", "camera": "50MP+32MP+8MP"},
+  {"brand": "Realme", "model": "Narzo N65", "price_usd": 159, "os": "Android 14", "ram": "4GB", "storage": "128GB", "display": "6.6 LCD 90Hz", "battery": "5000mAh", "charging": "33W", "camera": "50MP+2MP"},
+
+  {"brand": "Motorola", "model": "Edge 50 Pro", "price_usd": 799, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 OLED 144Hz", "battery": "4500mAh", "charging": "125W", "camera": "50MP+13MP+10MP"},
+  {"brand": "Motorola", "model": "Edge 40 Neo", "price_usd": 449, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.5 OLED 144Hz", "battery": "5000mAh", "charging": "68W", "camera": "50MP+13MP"},
   {"brand": "Motorola", "model": "Moto G84", "price_usd": 249, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.5 pOLED 120Hz", "battery": "5000mAh", "charging": "30W", "camera": "50MP+8MP"},
-  
-  {"brand": "Nothing", "model": "Phone 2", "price_usd": 699, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 OLED 120Hz", "battery": "4700mAh", "charging": "45W", "camera": "50MP+50MP"}
+  {"brand": "Motorola", "model": "Moto G54", "price_usd": 199, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.5 LCD 120Hz", "battery": "6000mAh", "charging": "30W", "camera": "50MP+8MP"},
+
+  {"brand": "iQOO", "model": "12 Pro", "price_usd": 899, "os": "Android 14", "ram": "16GB", "storage": "512GB", "display": "6.7 AMOLED 144Hz", "battery": "5100mAh", "charging": "120W", "camera": "50MP+50MP+64MP"},
+  {"brand": "iQOO", "model": "Neo 9 Pro", "price_usd": 599, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 144Hz", "battery": "5160mAh", "charging": "120W", "camera": "50MP+8MP"},
+  {"brand": "iQOO", "model": "Z9", "price_usd": 299, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.6 AMOLED 120Hz", "battery": "5000mAh", "charging": "44W", "camera": "50MP+2MP"},
+
+  {"brand": "Honor", "model": "Magic 6 Pro", "price_usd": 1099, "os": "Android 14", "ram": "12GB", "storage": "512GB", "display": "6.8 OLED 120Hz", "battery": "5600mAh", "charging": "80W", "camera": "50MP+50MP+180MP"},
+  {"brand": "Honor", "model": "Magic 6", "price_usd": 799, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 OLED 120Hz", "battery": "5450mAh", "charging": "66W", "camera": "50MP+50MP+12MP"},
+  {"brand": "Honor", "model": "90", "price_usd": 499, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "66W", "camera": "200MP+12MP+2MP"},
+  {"brand": "Honor", "model": "X9b", "price_usd": 329, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "5800mAh", "charging": "35W", "camera": "108MP+5MP+2MP"},
+
+  {"brand": "Nothing", "model": "Phone 2", "price_usd": 699, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 OLED 120Hz", "battery": "4700mAh", "charging": "45W", "camera": "50MP+50MP"},
+  {"brand": "Nothing", "model": "Phone 2a", "price_usd": 349, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "45W", "camera": "50MP+50MP"},
+  {"brand": "Nothing", "model": "Phone 1", "price_usd": 499, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.5 OLED 120Hz", "battery": "4500mAh", "charging": "33W", "camera": "50MP+50MP"},
+
+  {"brand": "Asus", "model": "ROG Phone 8 Pro", "price_usd": 1299, "os": "Android 14", "ram": "16GB", "storage": "512GB", "display": "6.8 AMOLED 165Hz", "battery": "5500mAh", "charging": "65W", "camera": "50MP+32MP+13MP"},
+  {"brand": "Asus", "model": "Zenfone 11 Ultra", "price_usd": 999, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.8 AMOLED 144Hz", "battery": "5500mAh", "charging": "65W", "camera": "50MP+32MP+13MP"},
+
+  {"brand": "Sony", "model": "Xperia 1 VI", "price_usd": 1299, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.5 OLED 120Hz", "battery": "5000mAh", "charging": "30W", "camera": "48MP+12MP+12MP"},
+  {"brand": "Sony", "model": "Xperia 5 V", "price_usd": 999, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.1 OLED 120Hz", "battery": "5000mAh", "charging": "30W", "camera": "48MP+12MP"},
+
+  {"brand": "Nokia", "model": "X21 5G", "price_usd": 499, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.6 OLED 120Hz", "battery": "4800mAh", "charging": "33W", "camera": "64MP+13MP+2MP"},
+  {"brand": "Nokia", "model": "G400 5G", "price_usd": 249, "os": "Android 13", "ram": "6GB", "storage": "128GB", "display": "6.6 LCD 120Hz", "battery": "5000mAh", "charging": "20W", "camera": "48MP+5MP+2MP"},
+
+  {"brand": "Infinix", "model": "GT 20 Pro", "price_usd": 399, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 144Hz", "battery": "5000mAh", "charging": "45W", "camera": "108MP+2MP+2MP"},
+  {"brand": "Infinix", "model": "Note 40 Pro+", "price_usd": 329, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "4600mAh", "charging": "100W", "camera": "108MP+2MP+2MP"},
+
+  {"brand": "Tecno", "model": "Phantom X3", "price_usd": 899, "os": "Android 14", "ram": "12GB", "storage": "512GB", "display": "6.8 AMOLED 120Hz", "battery": "5000mAh", "charging": "66W", "camera": "50MP+50MP+50MP"},
+  {"brand": "Tecno", "model": "Camon 30 Pro", "price_usd": 499, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "70W", "camera": "50MP+50MP"},
+
+  {"brand": "ZTE", "model": "Axon 60 Ultra", "price_usd": 999, "os": "Android 14", "ram": "16GB", "storage": "512GB", "display": "6.8 AMOLED 120Hz", "battery": "5000mAh", "charging": "80W", "camera": "50MP+50MP+50MP"},
+  {"brand": "ZTE", "model": "Nubia Z60 Ultra", "price_usd": 799, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "6000mAh", "charging": "80W", "camera": "50MP+64MP+50MP"},
+  {"brand": "ZTE", "model": "Blade V50 Design", "price_usd": 159, "os": "Android 13", "ram": "4GB", "storage": "128GB", "display": "6.6 LCD 90Hz", "battery": "5000mAh", "charging": "22.5W", "camera": "50MP+2MP"},
+
+  {"brand": "Samsung", "model": "Galaxy S23 FE", "price_usd": 699, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.4 AMOLED 120Hz", "battery": "4500mAh", "charging": "25W", "camera": "50MP+12MP+8MP"},
+  {"brand": "Samsung", "model": "Galaxy A25", "price_usd": 279, "os": "Android 14", "ram": "6GB", "storage": "128GB", "display": "6.5 AMOLED 120Hz", "battery": "5000mAh", "charging": "25W", "camera": "50MP+8MP+2MP"},
+  {"brand": "Samsung", "model": "Galaxy M54", "price_usd": 399, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "6000mAh", "charging": "25W", "camera": "108MP+8MP+2MP"},
+
+  {"brand": "Apple", "model": "iPhone 14 Pro Max", "price_usd": 999, "os": "iOS 17", "ram": "6GB", "storage": "128GB", "display": "6.7 OLED 120Hz", "battery": "4323mAh", "charging": "27W", "camera": "48MP+12MP+12MP"},
+  {"brand": "Apple", "model": "iPhone 13", "price_usd": 649, "os": "iOS 17", "ram": "4GB", "storage": "128GB", "display": "6.1 OLED 60Hz", "battery": "3240mAh", "charging": "20W", "camera": "12MP+12MP"},
+  {"brand": "Google", "model": "Pixel 7 Pro", "price_usd": 799, "os": "Android 14", "ram": "12GB", "storage": "128GB", "display": "6.7 OLED 120Hz", "battery": "5000mAh", "charging": "30W", "camera": "50MP+48MP+12MP"},
+
+  {"brand": "OnePlus", "model": "Open", "price_usd": 1699, "os": "Android 14", "ram": "16GB", "storage": "512GB", "display": "7.8 Foldable AMOLED", "battery": "4800mAh", "charging": "67W", "camera": "48MP+64MP+48MP"},
+  {"brand": "OnePlus", "model": "Nord CE 3", "price_usd": 299, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "80W", "camera": "50MP+8MP+2MP"},
+
+  {"brand": "Xiaomi", "model": "13T Pro", "price_usd": 749, "os": "Android 14", "ram": "12GB", "storage": "512GB", "display": "6.6 AMOLED 144Hz", "battery": "5000mAh", "charging": "120W", "camera": "50MP+12MP+50MP"},
+  {"brand": "Xiaomi", "model": "Redmi Note 12", "price_usd": 179, "os": "Android 13", "ram": "4GB", "storage": "128GB", "display": "6.6 AMOLED 120Hz", "battery": "5000mAh", "charging": "33W", "camera": "50MP+8MP+2MP"},
+
+  {"brand": "Oppo", "model": "Find N3 Flip", "price_usd": 999, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.8 Foldable AMOLED", "battery": "4300mAh", "charging": "44W", "camera": "50MP+32MP+8MP"},
+  {"brand": "Oppo", "model": "A59 5G", "price_usd": 199, "os": "Android 13", "ram": "6GB", "storage": "128GB", "display": "6.5 LCD 90Hz", "battery": "5000mAh", "charging": "33W", "camera": "13MP+2MP"},
+
+  {"brand": "Vivo", "model": "V29 Pro", "price_usd": 499, "os": "Android 13", "ram": "12GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "4600mAh", "charging": "80W", "camera": "50MP+12MP+8MP"},
+  {"brand": "Vivo", "model": "Y100", "price_usd": 249, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.4 AMOLED 90Hz", "battery": "4500mAh", "charging": "44W", "camera": "64MP+2MP"},
+
+  {"brand": "Realme", "model": "GT Neo 6 SE", "price_usd": 459, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5500mAh", "charging": "100W", "camera": "50MP+8MP"},
+  {"brand": "Realme", "model": "C67", "price_usd": 179, "os": "Android 14", "ram": "6GB", "storage": "128GB", "display": "6.7 LCD 90Hz", "battery": "5000mAh", "charging": "33W", "camera": "108MP+2MP"},
+
+  {"brand": "Motorola", "model": "Razr 40 Ultra", "price_usd": 999, "os": "Android 14", "ram": "12GB", "storage": "512GB", "display": "6.9 Foldable AMOLED", "battery": "3800mAh", "charging": "30W", "camera": "12MP+13MP"},
+  {"brand": "Motorola", "model": "Moto G Play (2024)", "price_usd": 149, "os": "Android 13", "ram": "4GB", "storage": "64GB", "display": "6.5 LCD 90Hz", "battery": "5000mAh", "charging": "15W", "camera": "50MP+2MP"},
+
+  {"brand": "iQOO", "model": "Neo 9", "price_usd": 499, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 144Hz", "battery": "5160mAh", "charging": "120W", "camera": "50MP+8MP"},
+  {"brand": "iQOO", "model": "Z7", "price_usd": 279, "os": "Android 13", "ram": "6GB", "storage": "128GB", "display": "6.4 AMOLED 90Hz", "battery": "4500mAh", "charging": "44W", "camera": "64MP+2MP"},
+
+  {"brand": "Honor", "model": "Magic V2", "price_usd": 1799, "os": "Android 14", "ram": "16GB", "storage": "512GB", "display": "7.9 Foldable OLED", "battery": "5000mAh", "charging": "66W", "camera": "50MP+50MP+20MP"},
+  {"brand": "Honor", "model": "Magic 5 Pro", "price_usd": 899, "os": "Android 14", "ram": "12GB", "storage": "512GB", "display": "6.8 OLED 120Hz", "battery": "5100mAh", "charging": "66W", "camera": "50MP+50MP+50MP"},
+
+  {"brand": "Asus", "model": "Zenfone 10", "price_usd": 699, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "5.9 AMOLED 144Hz", "battery": "4300mAh", "charging": "30W", "camera": "50MP+13MP"},
+  {"brand": "Sony", "model": "Xperia 10 VI", "price_usd": 449, "os": "Android 14", "ram": "6GB", "storage": "128GB", "display": "6.1 OLED 60Hz", "battery": "5000mAh", "charging": "21W", "camera": "48MP+8MP"},
+
+  {"brand": "Nokia", "model": "G22", "price_usd": 149, "os": "Android 13", "ram": "4GB", "storage": "128GB", "display": "6.5 LCD 90Hz", "battery": "5050mAh", "charging": "20W", "camera": "50MP+2MP"},
+  {"brand": "Infinix", "model": "Zero 30 5G", "price_usd": 299, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.7 AMOLED 144Hz", "battery": "5000mAh", "charging": "68W", "camera": "108MP+13MP"},
+  {"brand": "Tecno", "model": "Pova 6 Pro", "price_usd": 269, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "6000mAh", "charging": "70W", "camera": "108MP+2MP"},
+  {"brand": "ZTE", "model": "Red Magic 9 Pro", "price_usd": 699, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "6500mAh", "charging": "80W", "camera": "50MP+50MP+2MP"},
+
+  {"brand": "Samsung", "model": "Galaxy S22 Ultra", "price_usd": 799, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.8 AMOLED 120Hz", "battery": "5000mAh", "charging": "45W", "camera": "108MP+12MP+10MP+10MP"},
+  {"brand": "Samsung", "model": "Galaxy A05s", "price_usd": 129, "os": "Android 13", "ram": "4GB", "storage": "64GB", "display": "6.7 LCD 90Hz", "battery": "5000mAh", "charging": "25W", "camera": "50MP+2MP+2MP"},
+  {"brand": "Apple", "model": "iPhone 11", "price_usd": 399, "os": "iOS 17", "ram": "4GB", "storage": "64GB", "display": "6.1 LCD 60Hz", "battery": "3110mAh", "charging": "18W", "camera": "12MP+12MP"},
+  {"brand": "Google", "model": "Pixel 6a", "price_usd": 349, "os": "Android 14", "ram": "6GB", "storage": "128GB", "display": "6.1 OLED 60Hz", "battery": "4410mAh", "charging": "18W", "camera": "12.2MP+12MP"},
+  {"brand": "OnePlus", "model": "Ace 3V", "price_usd": 429, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5500mAh", "charging": "100W", "camera": "50MP+8MP"},
+  {"brand": "Xiaomi", "model": "Black Shark 5 Pro", "price_usd": 699, "os": "Android 13", "ram": "12GB", "storage": "256GB", "display": "6.7 OLED 144Hz", "battery": "4650mAh", "charging": "120W", "camera": "108MP+13MP+5MP"},
+  {"brand": "Oppo", "model": "K12", "price_usd": 349, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5500mAh", "charging": "100W", "camera": "50MP+8MP"},
+  {"brand": "Vivo", "model": "iQOO Z9x", "price_usd": 199, "os": "Android 14", "ram": "6GB", "storage": "128GB", "display": "6.7 LCD 120Hz", "battery": "6000mAh", "charging": "44W", "camera": "50MP+2MP"},
+  {"brand": "Realme", "model": "GT 6", "price_usd": 699, "os": "Android 14", "ram": "16GB", "storage": "512GB", "display": "6.7 AMOLED 120Hz", "battery": "5500mAh", "charging": "100W", "camera": "50MP+50MP+8MP"},
+  {"brand": "Motorola", "model": "Edge 30 Ultra", "price_usd": 699, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 OLED 144Hz", "battery": "4610mAh", "charging": "125W", "camera": "200MP+50MP+12MP"},
+
+  {"brand": "Samsung", "model": "Galaxy Tab S9 Ultra (Cellular)", "price_usd": 1399, "os": "Android 13", "ram": "12GB", "storage": "256GB", "display": "14.6 AMOLED 120Hz", "battery": "11200mAh", "charging": "45W", "camera": "13MP+6MP"},
+  {"brand": "Apple", "model": "iPad Pro 11 (Cellular)", "price_usd": 999, "os": "iPadOS 17", "ram": "8GB", "storage": "128GB", "display": "11.0 Liquid Retina 120Hz", "battery": "7538mAh", "charging": "20W", "camera": "12MP+10MP"},
+  {"brand": "Xiaomi", "model": "Pad 6 Pro (Cellular)", "price_usd": 599, "os": "Android 14", "ram": "8GB", "storage": "256GB", "display": "11.0 LCD 144Hz", "battery": "8600mAh", "charging": "67W", "camera": "50MP+2MP"},
+  {"brand": "OnePlus", "model": "Pad 2 (Cellular)", "price_usd": 549, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "12.4 LCD 144Hz", "battery": "9510mAh", "charging": "67W", "camera": "13MP+8MP"},
+
+  {"brand": "Samsung", "model": "Galaxy S21 FE", "price_usd": 499, "os": "Android 14", "ram": "6GB", "storage": "128GB", "display": "6.4 AMOLED 120Hz", "battery": "4500mAh", "charging": "25W", "camera": "12MP+8MP+12MP"},
+  {"brand": "Apple", "model": "iPhone SE (2020)", "price_usd": 299, "os": "iOS 17", "ram": "3GB", "storage": "64GB", "display": "4.7 LCD 60Hz", "battery": "1821mAh", "charging": "18W", "camera": "12MP"},
+  {"brand": "Google", "model": "Pixel 5", "price_usd": 399, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.0 OLED 90Hz", "battery": "4080mAh", "charging": "18W", "camera": "12.2MP+16MP"},
+
+  {"brand": "OnePlus", "model": "11R", "price_usd": 499, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "100W", "camera": "50MP+8MP+2MP"},
+  {"brand": "Xiaomi", "model": "Redmi 12", "price_usd": 159, "os": "Android 13", "ram": "4GB", "storage": "128GB", "display": "6.7 LCD 90Hz", "battery": "5000mAh", "charging": "18W", "camera": "50MP+8MP+2MP"},
+  {"brand": "Oppo", "model": "A38", "price_usd": 149, "os": "Android 13", "ram": "4GB", "storage": "128GB", "display": "6.6 LCD 90Hz", "battery": "5000mAh", "charging": "33W", "camera": "50MP+2MP"},
+  {"brand": "Vivo", "model": "V27", "price_usd": 399, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.7 AMOLED 120Hz", "battery": "4600mAh", "charging": "66W", "camera": "50MP+8MP+2MP"},
+  {"brand": "Realme", "model": "11", "price_usd": 279, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.4 AMOLED 90Hz", "battery": "5000mAh", "charging": "67W", "camera": "108MP+2MP"},
+  {"brand": "Motorola", "model": "Edge+", "price_usd": 899, "os": "Android 14", "ram": "12GB", "storage": "512GB", "display": "6.7 OLED 165Hz", "battery": "5000mAh", "charging": "68W", "camera": "50MP+50MP+12MP"},
+  {"brand": "iQOO", "model": "Z8", "price_usd": 349, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.6 LCD 120Hz", "battery": "5000mAh", "charging": "120W", "camera": "64MP+2MP"},
+
+  {"brand": "Honor", "model": "Magic 4 Pro", "price_usd": 799, "os": "Android 13", "ram": "12GB", "storage": "256GB", "display": "6.8 OLED 120Hz", "battery": "4600mAh", "charging": "100W", "camera": "50MP+50MP+64MP"},
+  {"brand": "Asus", "model": "ROG Phone 7", "price_usd": 999, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 165Hz", "battery": "6000mAh", "charging": "65W", "camera": "50MP+13MP+5MP"},
+  {"brand": "Sony", "model": "Xperia 1 V", "price_usd": 999, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.5 OLED 120Hz", "battery": "5000mAh", "charging": "30W", "camera": "48MP+12MP+12MP"},
+
+  {"brand": "Nokia", "model": "C21 Plus", "price_usd": 99, "os": "Android 11 Go", "ram": "2GB", "storage": "32GB", "display": "6.5 LCD 60Hz", "battery": "4000mAh", "charging": "10W", "camera": "13MP+2MP"},
+  {"brand": "Infinix", "model": "Hot 40 Pro", "price_usd": 189, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.8 LCD 120Hz", "battery": "5000mAh", "charging": "33W", "camera": "108MP+2MP"},
+  {"brand": "Tecno", "model": "Spark 20 Pro+", "price_usd": 229, "os": "Android 14", "ram": "8GB", "storage": "256GB", "display": "6.8 AMOLED 120Hz", "battery": "5000mAh", "charging": "33W", "camera": "108MP+2MP"},
+  {"brand": "ZTE", "model": "Axon 50 Ultra", "price_usd": 699, "os": "Android 13", "ram": "12GB", "storage": "256GB", "display": "6.6 AMOLED 144Hz", "battery": "5000mAh", "charging": "80W", "camera": "64MP+50MP+50MP"},
+
+  {"brand": "Samsung", "model": "Galaxy A14 5G", "price_usd": 179, "os": "Android 13", "ram": "4GB", "storage": "64GB", "display": "6.6 LCD 90Hz", "battery": "5000mAh", "charging": "15W", "camera": "50MP+2MP+2MP"},
+  {"brand": "Apple", "model": "iPhone XR", "price_usd": 299, "os": "iOS 17", "ram": "3GB", "storage": "64GB", "display": "6.1 LCD 60Hz", "battery": "2942mAh", "charging": "15W", "camera": "12MP"},
+  {"brand": "Google", "model": "Pixel 4a", "price_usd": 249, "os": "Android 13", "ram": "6GB", "storage": "128GB", "display": "5.8 OLED 60Hz", "battery": "3140mAh", "charging": "18W", "camera": "12.2MP"},
+  {"brand": "OnePlus", "model": "Nord N300", "price_usd": 199, "os": "Android 13", "ram": "4GB", "storage": "64GB", "display": "6.6 LCD 90Hz", "battery": "5000mAh", "charging": "33W", "camera": "48MP+2MP"},
+  {"brand": "Xiaomi", "model": "Redmi A2+", "price_usd": 89, "os": "Android 12 Go", "ram": "2GB", "storage": "32GB", "display": "6.5 LCD 60Hz", "battery": "5000mAh", "charging": "10W", "camera": "8MP"},
+
+  {"brand": "Oppo", "model": "Reno 10 Pro", "price_usd": 499, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "4600mAh", "charging": "80W", "camera": "50MP+32MP+8MP"},
+  {"brand": "Vivo", "model": "Y36", "price_usd": 219, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.6 LCD 90Hz", "battery": "5000mAh", "charging": "44W", "camera": "50MP+2MP"},
+  {"brand": "Realme", "model": "Narzo 60", "price_usd": 249, "os": "Android 13", "ram": "8GB", "storage": "128GB", "display": "6.4 AMOLED 90Hz", "battery": "5000mAh", "charging": "33W", "camera": "64MP+2MP"},
+  {"brand": "Motorola", "model": "Edge 20 Pro", "price_usd": 499, "os": "Android 13", "ram": "12GB", "storage": "256GB", "display": "6.7 OLED 144Hz", "battery": "4500mAh", "charging": "30W", "camera": "108MP+16MP+8MP"},
+  {"brand": "iQOO", "model": "Z6 Lite", "price_usd": 179, "os": "Android 13", "ram": "4GB", "storage": "64GB", "display": "6.6 LCD 120Hz", "battery": "5000mAh", "charging": "18W", "camera": "50MP+2MP"},
+
+  {"brand": "Honor", "model": "Magic 6 Lite", "price_usd": 399, "os": "Android 14", "ram": "8GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5300mAh", "charging": "35W", "camera": "108MP+5MP+2MP"},
+  {"brand": "Asus", "model": "Zenfone 9", "price_usd": 599, "os": "Android 14", "ram": "8GB", "storage": "128GB", "display": "5.9 AMOLED 120Hz", "battery": "4300mAh", "charging": "30W", "camera": "50MP+12MP"},
+  {"brand": "Sony", "model": "Xperia 10 V", "price_usd": 399, "os": "Android 14", "ram": "6GB", "storage": "128GB", "display": "6.1 OLED 60Hz", "battery": "5000mAh", "charging": "21W", "camera": "48MP+8MP"},
+  {"brand": "Nokia", "model": "G21", "price_usd": 129, "os": "Android 12", "ram": "4GB", "storage": "64GB", "display": "6.5 LCD 90Hz", "battery": "5050mAh", "charging": "18W", "camera": "50MP+2MP"},
+  {"brand": "Infinix", "model": "Note 30 Pro", "price_usd": 259, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.6 AMOLED 120Hz", "battery": "5000mAh", "charging": "68W", "camera": "108MP+2MP+2MP"},
+
+  {"brand": "Tecno", "model": "Camon 20 Pro", "price_usd": 299, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "33W", "camera": "64MP+2MP"},
+  {"brand": "ZTE", "model": "Blade A73 5G", "price_usd": 139, "os": "Android 13", "ram": "4GB", "storage": "128GB", "display": "6.5 LCD 90Hz", "battery": "5000mAh", "charging": "22.5W", "camera": "50MP+2MP"},
+  {"brand": "Nothing", "model": "Phone 3", "price_usd": 899, "os": "Android 15", "ram": "16GB", "storage": "512GB", "display": "6.7 OLED 120Hz", "battery": "5000mAh", "charging": "67W", "camera": "50MP+50MP+8MP"},
+  {"brand": "Xiaomi", "model": "Redmi K70 Pro", "price_usd": 599, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "5000mAh", "charging": "120W", "camera": "50MP+50MP+12MP"},
+
+  {"brand": "Samsung", "model": "Galaxy A04e", "price_usd": 99, "os": "Android 13 Go", "ram": "3GB", "storage": "32GB", "display": "6.5 LCD 60Hz", "battery": "5000mAh", "charging": "10W", "camera": "13MP+2MP"},
+  {"brand": "Apple", "model": "iPhone SE 3 (2022)", "price_usd": 429, "os": "iOS 17", "ram": "4GB", "storage": "64GB", "display": "4.7 LCD 60Hz", "battery": "2018mAh", "charging": "20W", "camera": "12MP"},
+  {"brand": "Google", "model": "Pixel Fold", "price_usd": 1599, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "7.6 Foldable OLED", "battery": "4821mAh", "charging": "30W", "camera": "48MP+10.8MP+10.8MP"},
+  {"brand": "OnePlus", "model": "Nord N20 SE", "price_usd": 159, "os": "Android 12", "ram": "4GB", "storage": "64GB", "display": "6.5 LCD 60Hz", "battery": "5000mAh", "charging": "33W", "camera": "50MP+2MP"},
+  {"brand": "Xiaomi", "model": "Poco C65", "price_usd": 119, "os": "Android 13", "ram": "4GB", "storage": "128GB", "display": "6.7 LCD 90Hz", "battery": "5000mAh", "charging": "18W", "camera": "50MP+2MP"},
+
+  {"brand": "Oppo", "model": "A98 5G", "price_usd": 329, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.7 LCD 120Hz", "battery": "5000mAh", "charging": "67W", "camera": "64MP+2MP+2MP"},
+  {"brand": "Vivo", "model": "V29e", "price_usd": 349, "os": "Android 13", "ram": "8GB", "storage": "256GB", "display": "6.7 AMOLED 120Hz", "battery": "4800mAh", "charging": "44W", "camera": "64MP+8MP"},
+  {"brand": "Realme", "model": "GT Neo 5 SE", "price_usd": 459, "os": "Android 14", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 144Hz", "battery": "5500mAh", "charging": "100W", "camera": "64MP+8MP"},
+  {"brand": "Motorola", "model": "Moto E13", "price_usd": 89, "os": "Android 13 Go", "ram": "2GB", "storage": "32GB", "display": "6.5 LCD 60Hz", "battery": "5000mAh", "charging": "10W", "camera": "13MP"},
+  {"brand": "iQOO", "model": "11S", "price_usd": 699, "os": "Android 14", "ram": "16GB", "storage": "512GB", "display": "6.7 AMOLED 144Hz", "battery": "4700mAh", "charging": "200W", "camera": "50MP+13MP+8MP"},
+
+  {"brand": "Honor", "model": "Magic 5 Lite", "price_usd": 299, "os": "Android 13", "ram": "6GB", "storage": "128GB", "display": "6.6 AMOLED 120Hz", "battery": "5100mAh", "charging": "40W", "camera": "64MP+5MP+2MP"},
+  {"brand": "Asus", "model": "ROG Phone 6", "price_usd": 799, "os": "Android 13", "ram": "12GB", "storage": "256GB", "display": "6.7 AMOLED 165Hz", "battery": "6000mAh", "charging": "65W", "camera": "50MP+13MP+5MP"},
+  {"brand": "Sony", "model": "Xperia Ace III", "price_usd": 299, "os": "Android 13", "ram": "4GB", "storage": "64GB", "display": "5.5 LCD 60Hz", "battery": "4500mAh", "charging": "18W", "camera": "13MP"},
+  {"brand": "Nokia", "model": "C02", "price_usd": 69, "os": "Android 12 Go", "ram": "2GB", "storage": "32GB", "display": "5.4 LCD 60Hz", "battery": "3000mAh", "charging": "5W", "camera": "5MP"},
+  {"brand": "Infinix", "model": "Smart 8", "price_usd": 99, "os": "Android 13 Go", "ram": "3GB", "storage": "64GB", "display": "6.6 LCD 90Hz", "battery": "5000mAh", "charging": "10W", "camera": "13MP+0.3MP"}
 ]
