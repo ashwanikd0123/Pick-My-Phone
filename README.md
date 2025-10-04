@@ -9,3 +9,13 @@ The Agent should:
 - Be resilient to adversarial prompts and irrelavant queries.
 - provide a simple web based chat interface with results display.
 
+## Dataset used
+/dataset/phones.json
+
+
+## Screenshots
+### Home Screen
+!["home screen"](home_screen.png)
+
+### Chat Screen
+!["Chat screen"](chat_screen.png)
