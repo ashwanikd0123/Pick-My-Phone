@@ -15,7 +15,7 @@ The Agent should:
 
 ## Screenshots
 ### Home Screen
-!["home screen"](home_screen.png)
+!["home screen"](./home_screen.png)
 
 ### Chat Screen
-!["Chat screen"](chat_screen.png)
+!["Chat screen"](./chat_screen.png)
