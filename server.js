@@ -11,8 +11,6 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const PORT = 8080;
-
 const SYSTEM_PROMPT_FILE = __dirname + "/system_prompt.txt";
 
 async function getResponse(modelName, model, prompt) {
@@ -125,10 +123,6 @@ function startServer(data) {
             });
         });
     });
-
-    // APP.listen(PORT, () => {
-    //     console.log(`Server is running on http://localhost:${PORT}`);   
-    // });
 
     return APP
 }
