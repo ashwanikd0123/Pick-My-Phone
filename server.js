@@ -5,6 +5,7 @@ import morgan from "morgan";
 import {GoogleGenAI} from "@google/genai";
 import session from "express-session";
 import crypto from "crypto";
+import ejs from "ejs";
 
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -59,6 +60,7 @@ function buildFinalPrompt(systemPrompt, chats) {
 function setApp(app) {
     const sessionSecret = crypto.randomBytes(32).toString("hex");
     app.set('view engine', 'ejs');
+    app.engine('ejs', ejs.__express);
     app.use(express.static(path.join(__dirname, 'public')));
     app.set('views', path.join(__dirname, 'views'));
     app.use(bodyParser.urlencoded({extended: true}));
@@ -90,12 +92,12 @@ function startServer(data) {
         return;
     }
 
-    console.log("System Prompt: ", SYSTEM_PROMPT);
-
     if (SYSTEM_PROMPT.length === 0) {
         console.error("System prompt is empty. Please provide a valid system prompt in system_prompt.txt");
         return;
     }
+
+    console.log("system prompt loaded. length=", SYSTEM_PROMPT.length);
 
     const APP = express();
 
